@@ -39,6 +39,9 @@ body {
 .div3{
 grid-column: 3/4;
 }
+.div5{
+  grid-column: 1/5;
+}
 
 .container > div:nth-child(1n) {
   background-color: #06d6a0;
@@ -55,6 +58,9 @@ grid-column: 3/4;
 .container > div:nth-child(4n) {
   background-color: #ffd166;
 }
+.container > div:nth-child(5n) {
+  background-color: #29a5df;
+}
 
 
 
@@ -70,16 +76,20 @@ grid-column: 3/4;
   .div1{
     grid-column: 1/5;
   }
-  .div4{
-    margin-top: 5px;
-    grid-column: 1/5;
-  }
+ 
   .div2{
     grid-column: 1/5;
   }
   .div3{
   grid-column: 1/5
   ;
+  } 
+  .div4{
+    margin-top: 5px;
+    grid-column: 1/5;
+  }
+  .div5{
+    grid-column: 2/4;
   }
 }
 @media screen and (max-width: 150px){
